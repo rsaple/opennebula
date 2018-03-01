@@ -7,6 +7,14 @@
   become_user: root
   
   tasks:
+    - name: Update the Apt Cache
+      apt:
+        update_cache: yes
+
+    - name: Update the Apt Cache
+      apt:
+        upgrade: yes
+
     - name: Download the repo and add the Apt key
       apt_key:
         url: http://downloads.opennebula.org/repo/Debian/repo.key      
