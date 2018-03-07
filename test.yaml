@@ -1,5 +1,5 @@
 
-- hosts: localhost
+- hosts: awxhost.agni.loc
   remote_user: rahul
   become: true
   #become_pass: 123456
