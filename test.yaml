@@ -3,7 +3,7 @@
   remote_user: manage
   become: yes
   #become_pass: 123456
-  become_method: sudo
+  become_method: enable
   become_user: root
   
   tasks:
