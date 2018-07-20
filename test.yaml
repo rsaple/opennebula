@@ -1,6 +1,6 @@
 
 - hosts: all
-  remote_user: rahul
+  remote_user: manage
   become: true
   #become_pass: 123456
   become_method: sudo
