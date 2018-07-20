@@ -1,0 +1,10 @@
+- hosts: all
+  remote_user: rahul
+  become: true
+  #become_pass: 123456
+  become_method: sudo
+  become_user: root
+
+  tasks:
+    - name: Ping Test
+      ping:
