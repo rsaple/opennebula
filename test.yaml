@@ -8,7 +8,7 @@
   
   tasks:
 
-    - name: Download the repo and add the Apt key
+    - name: Download the repo and add the Apt key  
       apt_key:
         url: http://downloads.opennebula.org/repo/Debian/repo.key      
  
